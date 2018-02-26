@@ -1,0 +1,131 @@
+html{
+	font-family: "Sofia Pro", Sans-Serif;
+	color: #424242;
+}
+
+nav{
+	background: white;
+	height: 120px;
+}
+
+.main{
+	background-image: url("../images/splash.png");
+	height: 700px;
+	width: 100%;
+}
+
+#logo{
+	padding-left: 20px;
+	padding-top: 15px;
+}
+
+
+.col-left{
+	width: 30%;
+	float: left;
+}
+
+.col-right{
+	width: 70%;
+	float: left;
+	text-align: right;
+}
+
+.col-middle{
+	width: 100%;
+	float: center;
+	text-align: center;
+}
+
+
+.navigation a{
+	text-decoration: none;
+	color: black;
+	margin-left: 15px;
+	font-weight: 300;
+}
+
+#selected{
+	text-decoration: underline;
+	color: black;
+}
+
+.heading{
+	text-align: center;
+	padding-top: 50px;
+	font-size:55px;
+}
+
+.subheading{
+	text-align: center;
+	font-size:30px;
+	font-weight: lighter;
+}
+
+.button{
+	background-color: white; /* Green */
+    border: thick;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    font-family: Sofia Pro;
+    border-radius: 5px;
+    border: 1px solid black;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 4px 10px 0 rgba(0,0,0,0.19);
+    margin-left: 300px;
+}
+
+.clearer { 
+	clear: both;  
+	height: 0px; 
+	padding-bottom: 30px;
+
+} 
+
+.page_heading{
+	text-align: center;
+	padding-top: 50px;
+	padding-left: 35px;
+	font-size:45px;
+}
+
+.label{
+	padding-top: 10px;
+	font-weight: bold;
+	font-size: 20px;
+	text-align: center;
+}
+
+.column {
+    float: left;
+    width: 50%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+td
+{
+    padding:0 30px 0 30px;
+}
+
+.option_button {
+  background: #ffffff;
+  border-radius: 8px;
+  font-family: Sofia Pro;
+  color: #A3A1A1;
+  font-size: 15px;
+  padding: 6px 15px 6px 15px;
+  border: solid #424242 1px;
+  text-decoration: none;
+}
+
+.links{
+	text-decoration: none;
+}
