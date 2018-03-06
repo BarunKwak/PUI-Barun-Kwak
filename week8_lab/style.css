@@ -1,0 +1,36 @@
+body {
+    font-family: 'Open Sans Condensed', sans-serif;
+    color: navy;
+}
+
+#container {
+    margin: 0 auto;
+    width: 80%;
+    text-align: center;
+}
+
+h1 {
+    font-family: 'Pacifico', cursive;
+}
+
+#animal-img {
+    border: 10px solid navy;
+    border-radius: 10px;
+}
+
+#random-animal {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    border-radius: 3px;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+#paragraph {
+	font-family: 'Open Sans Condensed', sans-serif;
+	color:navy;
+}
