@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Your Cart</title>
+	<link rel="stylesheet" media="all" type="text/css" href="assets/css/styles.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script src="assets/js/main.js" type="text/javascript"></script>
+	<script src="assets/js/shopping_cart.js" type="text/javascript"></script>
+
+</head>
+
+<body>
+<!-- This is the code for my navigation bar -->
+<nav class="nav">
+	<!-- logo stuff -->
+	<div class="col-left">
+		<a href="index.html" class="links">
+			<img id="logo" src="assets/images/logo.png">
+		</a>
+		<br>
+		<span> &nbsp; Bun Bun Bakery</span>
+	</div>
+	<!-- This is the navigation bar on the upper right -->
+	<div class="col-right navigation">
+		<br>
+		<a href ="shopping_cart.html" class="links">
+			<img id="cart_logo" src="assets/images/cart_logo.png">
+		</a>
+		<span> <a href="shopping_cart.html"> <strong>CART</strong> </a> </span>
+		<br><br><br>
+		<span> <a href="index.html"> Home </a> </span>
+		<span> <a href="#"> Menu </a> </span>
+		<span> <a id="selected" href="#"><strong>Order</strong></a> </span>
+		<span> <a href="#"> Gallery </a> </span>
+		<span> <a href="#"> Contact </a> </span>
+	</div>
+</nav>
+
+<hr>
+
+<br>
+<span class="page_heading"><strong>Your Cart</strong></span>
+<button id="clear-cart" class="subheading">X Clear Cart</button>
+<br><br><br>
+<div>
+	<span class="subheading" id="checkout-titles"><strong>Item</strong></span>
+	<span class="subheading" id="checkout-price"><strong>Price</strong></span>
+<div> 
+	<br>
+	<hr>
+<!-- 	<ul>
+		<li><a href="#" class="add-to-cart" data-name="Apple" data-count="1" data-price="4.50">Apple $4.50</a></li>
+		<li><a href="#" class="add-to-cart" data-name="Pear" data-count="1" data-price="4.50">Pear $4.50</a></li>
+		
+
+	</ul> -->
+	
+</div>
+	<br><br>
+<div>
+	<ol id="display-cart">
+	<!-- 	<li>Original Cinnamon Roll Sugar-Milk 3</li><li>Original Cinnamon Roll Vanilla-Milk 6</li><li>Original Cinnamon Roll Double Chocolate 12</li> -->
+
+	</ol>
+</div>
+<br><br><br><br>
+	<div>Total Cart: $<span id="total-cart">0.00</span></div>
+
+<br><br>
+<div>
+	<a href ="product_browsing_page.html" class="links">
+		<button class="button">Continue Shopping</button>
+	</a>
+	<button class="checkout_button">Checkout</button>
+</body>
+</html>
